@@ -1,3 +1,3 @@
 # marvel-api
 Marvel api fetch avengers javascript
-# [Live demo](https://developermdcm.github.io/marvel-api/html/index.html)
+# [Live demo](https://developermdcm.github.io/marvel-api/)
