@@ -89,7 +89,7 @@ function mostrarVengadores(vengadores) {
         <div class="fondo bg-black">
         <p class="font-bold text-center bg-black text-white"> ${title} </p>
         <p class="font-bold text-center bg-black text-white"> ${id} </p>
-        <img class="w-full h-48 bg-gray-500" src="${thumbnail === null ? '' : thumbnail.path }${thumbnail === null ? '/recursos/imagen/no.png': '.' + thumbnail.extension }" >
+        <img class="w-full h-48 bg-gray-500" src="${thumbnail === null ? '' : thumbnail.path }${thumbnail === null ? '../recursos/imagen/no.png': '.' + thumbnail.extension }" >
         <div class="p-4 bg-gray-400 break-words">
         <details>
         <a class=" sm:text-sm block w-full bg-sky-800 hover:bg-blue-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="${urls ===  undefined || urls === null ? '' : urls[0].url}" target="_blank" rel="noopener noreferrer">Abrir url</a>
