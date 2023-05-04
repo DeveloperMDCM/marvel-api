@@ -1,0 +1,12 @@
+body {
+  background: #2C3E50;  /* fallback for old browsers */
+
+  background: linear-gradient( to left, #e90c00, #252323); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#resultado > div > div {
+  background-color: #272b33;
+  color: #fff;
+  border-radius: 10px;
+}
